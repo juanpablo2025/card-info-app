@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.custom-dark-background {
+  background-color: #282c34;
+  color: white; /* Optional: to make the text color white for better contrast */
+}
+
+/* App.css */
+
+
+/* Style for focused input[type="text"] that is not readonly */
+/* Estilo para input[type="text"] enfocado que no está en modo de solo lectura */
+input[type="text"]:focus:not([readonly]) {
+  border-bottom: 1px solid #C89924 !important;
+  box-shadow: 0 1px 0 0 #C89924 !important;
+}
+
+/* Arreglo para el color inicial del subrayado */
+input.yellow-border {
+  border-bottom: 1px solid #C89924 !important;
+}
